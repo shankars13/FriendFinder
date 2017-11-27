@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Friend Finder Survey</title>
+
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" href="/assets/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="conatiner col-md-8 col-md-offset-2">
+		<div class="page-header ">
+			<h2>Survey Questions</h2>
+		</div>
+
+		<div class="page-header">
+			<h3 style="font-weight: bold">About You</h3>
+			
+			<form id="form">
+				<div class="form-group">
+					<label for="name">Name (Required)</label>
+					<input type="text" class="form-control user-detail" id="name">
+				</div>
+
+				<div class="form-group">
+					<label for="Photo">Link to Photo Image(Required)</label>
+					<input type="text" class="form-control user-detail" id="photo">
+				</div>
+			</form>
+		</div>
+		
+		<div class="row"	
+			<form>
+				<h4 style="font-weight: bold">Question 1</h4>
+				<form id="carform">
+	  				Your mind is always buzzing with unexplored ideas and plans.
+				</form>
+				<select id="q1" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+			<br>
+
+			<form>
+				<h4 style="font-weight: bold">Question 2</h4>
+				<form id="carform">
+	  				Generally speaking, you rely more on your experience than your imagination.
+				</form>
+				 
+				<select id="q2" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+			<br>
+
+			<form>
+				<h4 style="font-weight: bold">Question 3</h4>
+				<form id="carform">
+	  				You find it easy to stay relaxed and focused even when there is some pressure.
+				</form>
+				
+				<select id="q3" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>		
+
+			<form>
+				<h4 style="font-weight: bold">Question 4</h4>
+				<form id="carform">
+	  				You rarely do something just out of sheer curiosity.
+				</form>
+				
+				<select id="q4" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+
+			<form>
+				<h4 style="font-weight: bold">Question 5</h4>
+				<form id="carform">
+	  				People can rarely upset you.
+				</form>
+				
+				<select id="q5" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>		
+
+			<form>
+				<h4 style="font-weight: bold">Question 6</h4>
+				<form id="carform">
+	  				It is often difficult for you to relate to other people’s feelings.
+				</form>
+				
+				<select id="q6" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+
+			<form>
+				<h4 style="font-weight: bold">Question 7</h4>
+				<form id="carform">
+	  				In a discussion, truth should be more important than people’s sensitivities.
+				</form>
+				
+				<select id="q7" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+
+			<form>
+				<h4 style="font-weight: bold">Question 8</h4>
+				<form id="carform">
+	  				You rarely get carried away by fantasies and ideas.
+				</form>
+				
+				<select id="q8" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+
+			<form>
+				<h4 style="font-weight: bold">Question 9</h4>
+				<form id="carform">
+	  				You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
+				</form>
+				
+				<select id="q9" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+
+			<form>
+				<h4 style="font-weight: bold">Question 10</h4>
+				<form id="carform">
+	  				You feel more energetic after spending time with a group of people.
+				</form>
+				
+				<select id="q10" name="friendlist" form="friendform">
+					<option value="">Select an Option</option>
+  					<option value="1">1 - Strongly Agree</option>
+  					<option value="2">2- Agree</option>
+  					<option value="3">3 - Neutral</option>
+  					<option value="4">4 - Disagree</option>
+  					<option value="5">5 - Strongly Disagree</option>
+				</select>
+			</form>
+		</div>
+		<br>				
+			<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal" id="addBtn">Submit</button>
+			<footer class="footer"> 
+				<div class="container">
+				<br>
+					<p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/shankars13/FriendFinder">GitHub Repo</a></p>
+				</div>
+			</footer>
+        <!--modal plugin for pop-up window-->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 id="modal-title">Your match</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="" alt="Friend match" id="match-image">
+                        <style>
+                        .modal-body>p {
+						 	font-size: 18px;
+							margin-top: 20px;
+							margin-bottom: 0px;
+						}
+						#modal-title {
+						   font-size: 25px;
+						   font-weight: 600;
+						   color: #7e7a7b;
+						   margin-left: 25px;
+						   font-family: cursive;
+						}
+                        #match-image {
+						    height: 400px;
+						    max-width: 500px;
+						    border: 1px solid #ddd;
+						    border-radius: 4px;
+						    padding: 5px;
+						    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+						}
+						#match-name {
+						    font-size: 30px;
+						    font-weight: 700;
+						    color: #e31661;
+						    font-family: cursive, fantasy;
+						}
+                    	</style>
+                        <br>
+                        <div id="match-name"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	</div>
+	
+	<script type="text/javascript">
+
+
+		//Validation when user in entering the input for Name and Image
+		
+		$('.user-detail').on("input", function() {
+		    var is_value = $(this).val();
+		    if (is_value.length === 0) {
+		        $(this).next().text("This field is required");
+		    } else {
+		        $(this).next().text("");
+		    }
+		});
+
+		$("#addBtn").on("click", function(event){
+		console.log("Begin test");
+			event.preventDefault();
+			var userName = $("#name").val().trim();
+			var userImageURL = $("#photo").val().trim();
+
+	    if (!userName || !userImageURL || !q1.value || !q2.value ||
+	    	!q3.value  || !q4.value || !q5.value || !q6.value  ||
+	    	!q7.value || !q8.value || !q9.value || !q10.value) {
+
+	        if (!userName) {
+	        	$("#name").next().text("This field is required");
+	        }
+	        
+	        if (!userImageURL) {
+	        	$("#photo").next().text("This field is required");
+	        }
+	        
+	        $("#modal-title").text("Incomplete form");
+	        $("#match-name").text("Please fill in all fields. 😦");
+	        $("#match-image").hide();
+	    } else {
+
+			var newFriend = {
+				name:userName,
+				photo:userImageURL,
+				scores:[q1.value,q2.value,q3.value,q4.value,q5.value,q6.value,q7.value,q8.value,q9.value,q10.value]
+			};
+			console.log(newFriend);
+
+	        //POST to add newFriend to existing friend data
+    	    $.post("/api/friends", newFriend, function(friendData) {
+    	    	console.log(friendData);
+            $("#modal-title").text("Friendly match for '" + newFriend.name + "'");
+            $("#match-image").attr("src",friendData.image);
+            $("#match-name").text(friendData.name);
+
+            // Clear the form after submission
+;
+            $("#form")[0].reset();
+            $('#q1').val("");
+            $('#q2').val("");
+            $('#q3').val("");
+            $('#q4').val("");
+            $('#q5').val("");
+            $('#q6').val("");
+            $('#q7').val("");
+            $('#q8').val("");
+            $('#q9').val("");            
+            $('#q10').val("");
+        	});
+	    	}
+		});
+	</script>
+
+</body>
+</html>
